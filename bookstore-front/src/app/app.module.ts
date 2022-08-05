@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/shared/header/header.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { NavComponent } from './components/shared/nav/nav.component';
 import { BookstoreAppComponent } from './components/bookstore-app/bookstore-app.component';
+import { FiltersComponent } from './components/bookstore-app/filters/filters.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BookstoreAppComponent } from './components/bookstore-app/bookstore-app.
     HeaderComponent,
     FooterComponent,
     NavComponent,
-    BookstoreAppComponent
+    BookstoreAppComponent,
+    FiltersComponent
   ],
   imports: [
     BrowserModule,
